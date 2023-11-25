@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231125133702">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+			</div>
+		</header>
+		<main class="page">
+			<div class="app" id="app">
+				<div class="app__container">
+					<div class="app__items items">
+						<form id="location-form">
+							<div class="items__inputs">
+								<input placeholder="Введите широту" class="input" type="text" id="latitude" required>
+								<input placeholder="Введите долготу" class="input" type="text" id="longitude" required>
+							</div>
+							<div class="items__btn"><button id="result" class="button" type="submit">Показать погоду</button></div>
+						</form>
+					</div>
+					<div class="app__result" id="cards-box">
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20231125133702"></script>
+</body>
+
+</html>
